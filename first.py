@@ -46,6 +46,10 @@
 # count_2 = my_list.count(4)
 # print(count_2)  # Виведе 4, оскільки число 2 зустрічається 4 рази
 
-nums = [3, 1, 4, 1, 5, 9, 2]
-nums.sort()
-print(nums)  # Виведе [1, 1, 2, 3, 4, 5, 9]
+# nums = [3, 1, 4, 1, 5, 9, 2]
+# nums.sort()
+# print(nums)  # Виведе [1, 1, 2, 3, 4, 5, 9]
+
+
+nums.sort(reverse=True)
+print(nums)  # Виведе [9, 5, 4, 3, 2, 1, 1]
