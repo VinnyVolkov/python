@@ -50,8 +50,20 @@
 # nums.sort()
 # print(nums)  # Виведе [1, 1, 2, 3, 4, 5, 9]
 
+# a = {1, 2, 3}
+# b = {3, 4, 5}
+# print(b.difference(a))  # {1, 2}
+# print(a - b)  # {1, 2}
 
+# a = frozenset([1, 2, 3])
+# b = frozenset([3, 4, 5])
 
+# union = a | b  # Об'єднання множин
+# intersection = a & b  # Перетин множин
+# difference = a - b  # Різниця множин
+# symmetric_difference = a ^ b  # Симетрична різниця
 
-# my_dict = {"name": "Alice", "age": 25, "city": "New York"}
-# print(my_dict["name"])  # Виведе 'Alice'
+# print(union)  # frozenset({1, 2, 3, 4, 5})
+# print(intersection)  # frozenset({3})
+# print(difference)  # frozenset({1, 2})
+# print(symmetric_difference)  # frozenset({1, 2, 4, 5})
