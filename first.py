@@ -128,3 +128,18 @@
 #     print('Число додатне')
 # else:
 #     print("a <= 0")
+
+# тип bool
+# money = 4
+# if money:
+#     print(f"You have {money} on your bank account")
+# else:
+#     print("You have no money and no debts")
+
+#іS
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a is b)  # True
+print(a is c)  # False
