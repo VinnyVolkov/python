@@ -1,17 +1,17 @@
-#print("hello")
-#print("hello")
-#print("Hello", end=" next")
+# print("hello")
+# print("hello")
+# print("Hello", end=" next")
 
-#a = input("Рядок запрошення: ")
-#
+# a = input("Рядок запрошення: ")
+
 #  На екрані ви побачите: Рядок запрошення: #
 
 # Власник Юра 
 # a = input("Хто ти: ")
-#if a=="Yura":
- #print('Привіт Власник')
-#else:
- #6print(f"Привіт, {a}!")
+# if a=="Yura":
+#  print('Привіт Власник')
+# else:
+#  6print(f"Привіт, {a}!")
 
 # P квадрата
 # a= int(input("Ведіть сторону квадрата "))
@@ -80,5 +80,12 @@
 # # Використання іменованих аргументів
 # print('Hello, {name}. You are {age} years old.'.format(name='Jane', age=30))
 
-# # Використання індексів для вказівки порядку аргументів
-# print('Hello, {1}. You are {0} years old.'.format(age, name))
+# Використання індексів для вказівки порядку аргументів
+print('Hello, {1}. You are {0} years old.'.format(age, name))
+
+# Чи більше число 10
+num = int(input("Ведіть число "))
+if num > 10:
+    print("num більше за 10")
+else:
+    print("num не більше за 10")
