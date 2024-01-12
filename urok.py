@@ -11,9 +11,18 @@
 # c=(a**2+b**2)*0.5
 # print(f"Ви ввели такі сторони a={a} та b={b}, то гіпотинуза буде дорівнювати {c}")
 
-number = 1000
+# number = 1000
 
-while number >= 0:
-    print(number)
-    number -= 7
-print(number)
+# while number >= 0:
+#     print(number)
+#     number -= 7
+# print(number)
+
+
+# # парне не парне
+# x = int(input('Введіть число: '))
+
+# if x % 2 == 0:
+#     print("Число x є парним.")
+# else:
+#     print("Число x є непарним.")

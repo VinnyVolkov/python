@@ -81,11 +81,40 @@
 # print('Hello, {name}. You are {age} years old.'.format(name='Jane', age=30))
 
 # Використання індексів для вказівки порядку аргументів
-print('Hello, {1}. You are {0} years old.'.format(age, name))
+# print('Hello, {1}. You are {0} years old.'.format(age, name))
 
-# Чи більше число 10
-num = int(input("Ведіть число "))
-if num > 10:
-    print("num більше за 10")
-else:
-    print("num не більше за 10")
+# # Чи більше число 10
+# num = int(input("Ведіть число "))
+# if num > 10:
+#     print("num більше за 10")
+# else:
+#     print("num не більше за 10")
+
+    # # Задача 1.
+# # Составить программу решения линейного уравнения а*х + b = 0 (а≠0). (a и b вводятся пользователем)
+
+# a = float(input("Ведіть числа a: " ))
+# b = float(input("Ведіть числа b: "  ))
+# print(f"Ваші числа a={a} та b={b}")
+# print(f"Ваше рівнння = x= {-b}/{a}={-b/a}")
+
+# a = float(input("Ведіть першу сторону катета " ))
+# b = float(input("Ведіть другу сторону катета " ))
+# c=(a**2+b**2)*0.5
+# print(f"Ви ввели такі сторони a={a} та b={b}, то гіпотинуза буде дорівнювати {c}")
+
+# number = 1000
+
+# while number >= 0:
+#     print(number)
+#     number -= 7
+# print(number)
+
+
+# # парне не парне
+# x = int(input('Введіть число: '))
+
+# if x % 2 == 0:
+#     print("Число x є парним.")
+# else:
+#     print("Число x є непарним.")
