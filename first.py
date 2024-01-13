@@ -136,10 +136,21 @@
 # else:
 #     print("You have no money and no debts")
 
-#іS
-a = [1, 2, 3]
-b = a
-c = [1, 2, 3]
+# #іS
+# a = [1, 2, 3]
+# b = a
+# c = [1, 2, 3]
 
-print(a is b)  # True
-print(a is c)  # False
+# print(a is b)  # True
+# print(a is c)  # False
+
+#Наприклад, нам треба визначити, чи введене користувачем число є парним двозначним числом:
+
+# num = int(input("Введіть число: "))
+
+# length = len(str(num))
+
+# if length == 2 and num % 2 == 0:
+#     print("Парне двозначне число")
+# else:
+#     print("Ні")
