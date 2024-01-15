@@ -210,21 +210,23 @@
 #     case _:
 #         print("Це не точка")
 
-# Зчитування рядка від користувача
-user_input = input("Введіть рядок: ")
+# # Зчитування рядка від користувача
+# user_input = input("Введіть рядок: ")
 
-# Ініціалізація змінних для підрахунку символів та пробілів
-total_chars = len(user_input)  # загальна кількість символів у рядку
-space_count = 0  # кількість пробілів
+# # Ініціалізація змінних для підрахунку символів та пробілів
+# total_chars = len(user_input)  # загальна кількість символів у рядку
+# space_count = 0  # кількість пробілів
 
-# Підрахунок кількості пробілів
-for char in user_input:
-    if char == " ":
-        space_count += 1
+# # Підрахунок кількості пробілів
+# for char in user_input:
+#     if char == " ":
+#         space_count += 1
 
-# Виведення результатів
-print(f"Загальна кількість символів у рядку: {total_chars}")
-print(f"Кількість пробілів у рядку: {space_count}")
+# # Виведення результатів
+# print(f"Загальна кількість символів у рядку: {total_chars}")
+# print(f"Кількість пробілів у рядку: {space_count}")
+
+
 
 # pets = ["dog", "fish", "cat"]
 
@@ -238,3 +240,7 @@ print(f"Кількість пробілів у рядку: {space_count}")
 #     case _:
 #         # Випадок для інших комбінацій
 #         print("No dogs.")
+
+# some_list = ["apple", "banana", "cherry"]
+# for index, value in enumerate(some_list):
+#     print(index, value)
