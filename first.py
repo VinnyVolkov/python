@@ -265,3 +265,33 @@
 # # print(numbers)
 # for k, v in numbers.items():
 #     print(k, v)
+
+# num = int(input("Enter the integer (0 to 100): "))
+# sum = 0
+
+
+# while num >= 0:
+#     sum=+num
+# print(sum)
+
+# num = int(input("Введіть ціле число від 0 до 100: "))
+# sum_result = 0
+
+# while num >= 1:
+#     sum_result += num
+#     num -= 1
+
+# print("Сума всіх чисел від 1 до введеного числа:", sum_result)
+
+# message = "Never argue with stupid people, they will drag you down to their level and then beat you with experience."
+# search = "r"
+# result = 0
+# for char in message:
+#     if char == "r":
+#      result += 1
+#      print(result)
+
+
+    
+
+
