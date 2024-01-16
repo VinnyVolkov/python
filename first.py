@@ -291,12 +291,20 @@
 #      result += 1
 #      print(result)
 
-pool = 1000
-quantity = int(input("Enter the number of mailings: "))
-try:
-   chunk = pool / quantity
-except: ZeroDivisionError
-print('Divide by zero completed!')
+# pool = 1000
+# quantity = int(input("Enter the number of mailings: "))
+# try:
+#    chunk = pool / quantity
+# except: ZeroDivisionError
+# print('Divide by zero completed!')
+
+# # summ
+# list = [1,5,3,4,6,7]
+# sum=0
+# for i in list:
+#     print(i)
+#     sum+=i
+# print(sum)
 
 
     
