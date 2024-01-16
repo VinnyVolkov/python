@@ -249,3 +249,9 @@
 # list2 = ["яблуко", "вишня", "томат"]
 # for number, letter in zip(list1, list2):
 #     print(number, letter)
+
+# sum = 0
+# list = [1,2,3,4,5,6]
+# for num in list:
+#     sum += num
+# print(sum)
