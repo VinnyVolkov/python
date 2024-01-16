@@ -255,3 +255,13 @@
 # for num in list:
 #     sum += num
 # print(sum)
+
+# # items
+# numbers = {
+#     1: "one",
+#     2: "two",
+#     3: "three"
+# }
+# # print(numbers)
+# for k, v in numbers.items():
+#     print(k, v)
