@@ -349,3 +349,37 @@
 # x = 5
 # y = 7
 # print_max(x, y)  # передача змінних у якості аргументів
+
+# # return
+# def add_sum (num1:int, num2:int):
+#     sum = num1 + num2
+#     return sum
+# x = int(input("Ведіть 1 число "))
+# y = int(input("Ведіть 2 число "))
+# result = add_sum (x,y)
+# print( f"сума чисел {result}")
+
+# # retirn
+# def greet(name: str) -> str:
+#     return f"Привіт, {name}!"
+
+# greeting = greet("Олексій")
+# print(greeting)  # Виведе: Привіт, Олексій!
+
+# def modify_string(original: str) -> str:
+#     original = "змінено"
+#     return original
+
+# str_var = "оригінал"
+# print(modify_string(str_var))  # виведе: змінено
+# print(str_var)                # виведе: оригінал
+
+
+# # list
+# def modify_list(lst: list) -> None:
+#     lst.append(4)
+
+# my_list = [1, 2, 3]
+# modify_list(my_list)
+# print(my_list)  # виведе: [1, 2, 3, 4]
+                                                                                 
