@@ -382,4 +382,141 @@
 # my_list = [1, 2, 3]
 # modify_list(my_list)
 # print(my_list)  # виведе: [1, 2, 3, 4]
-                                                                                 
+
+# # coppy
+# def modify_list(lst: list) -> None:
+#      lst = lst.copy()
+#     lst.append(4)
+
+# my_list = [1, 2, 3]
+# modify_list(my_list)
+# print(my_list)  # виведе: [1, 2, 3] 
+                            
+
+# # задача на функц
+# def string_to_codes(string: str):
+#     # Ініціалізація словника для зберігання кодів
+#     codes = {}  
+#     # Перебір кожного символу в рядку
+#     for ch in string:  
+#         # Перевірка, чи символ вже є в словнику
+#         if ch not in codes:
+#             # Додавання пари символ-код в словник  
+#             codes[ch] = ord(ch)  
+#     return codes
+# result = string_to_codes("Hello world!")
+# print(result)
+
+# # факторіал
+# def factorial(x: int):
+#     result = 1
+#     while x >= 1:
+#         result *= x
+#         x -= 1
+#     return result
+
+# # Введення числа з клавіатури
+# input_number = int(input("Введіть число для обчислення факторіалу: "))
+
+# # Виклик функції та виведення результату
+# result_factorial = factorial(input_number)
+# print(f"Факторіал числа {input_number} дорівнює {result_factorial}")
+
+# # паліндром
+# def is_palindrome(val: str):
+#     
+    
+#     # Переведіть рядок в нижній регістр і видаліть пробіли
+#     cleaned_val = val.lower().replace(" ", "")
+    
+#     # Використовуйте [::-1] для обертання рядка
+#     reversed_val = cleaned_val[::-1]
+    
+#     # Порівнюйте вихідний рядок і його обернений варіант
+#     if cleaned_val == reversed_val:
+#         return True
+#     else:
+#         return False
+
+# # Введення рядка з клавіатури
+# input_string = input("Введіть рядок для перевірки на паліндром: ")
+
+# # Виклик функції та виведення результату
+# result = is_palindrome(input_string)
+# print(f"Чи є рядок паліндромом? {result}")
+
+# def is_palindrome(num: int):
+#     clened_num = str(num)
+#     reverse_num=clened_num[::-1]
+#     if clened_num==reverse_num:
+#         return True
+#     else:
+#         return False
+    
+# input_string = input("Введіть рядок для перевірки на паліндром: ")
+
+
+# result = is_palindrome(input_string)
+# print(f"Чи є число паліндромом? {result}")
+    
+# def factorial(x:int):
+#     result = 1
+#     while x >= 1:
+#          result *= x
+#          x-=1
+#     return result
+
+# input_num = int(input("Ведіть число "))
+# finish = factorial(input_num)
+# print(f"Ви вели число {input_num} його факторіал {finish}")
+
+# #   Local
+# x = 50
+# def func():
+#     x = 2 
+#     print('Зміна локального x на', x)  # Зміна локального x на 2
+
+# func()
+# print('Глобальний x як і раніше', x)  # x як і раніше 50
+
+# #  Enclosing
+# def outer_func():
+#     enclosing_var = "Я змінна в функції, що охоплює"
+
+#     def inner_func():
+#         print("Всередині вкладеної функції:", enclosing_var)
+
+#     inner_func()
+
+# outer_func()
+
+
+#  nonlocal
+# def func_outer():
+#     x = 2
+
+#     def func_inner():
+#         nonlocal x
+#         x = 5
+
+#     func_inner()
+#     return x
+
+# result = func_outer()  # 5
+
+# print(result)
+
+# x= float(input("ведіть цифру "))
+# y = float(input("Ведіть дісконт "))
+
+# def discount_price(price, discount):
+#    def apply_discount():
+#         nonlocal price
+#         price = price * (1-discount)
+#         return price
+#    return apply_discount()
+
+# final = discount_price(x, y)
+# print( final)
+
+
