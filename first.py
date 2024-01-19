@@ -519,4 +519,14 @@
 # final = discount_price(x, y)
 # print( final)
 
+# # global
+# x = 50
 
+# def func():
+#     global x
+#     print('x дорівнює', x)  # x дорівнює 50
+#     x = 2
+#     print('Змінюємо глобальне значення x на', x)  # Змінюємо глобальне значення x на 2
+
+# func()
+# print('Значення x складає', x)# Значення x складає 2
