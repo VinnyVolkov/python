@@ -530,3 +530,57 @@
 
 # func()
 # print('Значення x складає', x)# Значення x складає 2
+
+
+# def greet(name, message="Привіт"):
+#     print(f"{message}, {name}!")
+
+# # використовує значення за замовчуванням для message
+# greet("Олексій")  
+
+# # передача власного значення для message
+# greet("Марія", message="Добрий день") 
+
+
+# def func(a, b=5, c=10):
+#     print('a дорівнює', a,', b дорівнює', b,', а c дорівнює', c)
+
+# # a дорівнює 3, b дорівнює 7, а c дорівнює 10
+# func(3, 7)
+
+# # a дорівнює 25, b дорівнює 5, а c дорівнює 24
+# func(25, c=24)
+
+# # a дорівнює 100, b дорівнює 5, а c дорівнює 50
+# func(c=50, a=100)
+
+# def say(message, times=1):
+#     print(message * times)
+
+# say('Привіт') 
+# say('Світ', 5)
+
+
+# def get_fullname(first_name, last_name, middle_name=""):
+#     if middle_name 
+#         return f"{first_name} {last_name}"
+#     else:
+#         return f"{first_name} {last_name} {middle_name}"
+def get_fullname(first_name, last_name, middle_name=""):
+    if middle_name == "":
+        return(f"{first_name} {last_name}")
+    else:
+        return(f"{first_name} {middle_name} {last_name}")
+
+first_name = "Yura"
+last_name = "Sergiyovich"
+middle_name = None
+
+fullname = get_fullname(first_name, last_name, middle_name)
+print(fullname)
+
+
+
+
+
+    
