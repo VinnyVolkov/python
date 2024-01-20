@@ -607,7 +607,12 @@
 # print(second(3, comment_one="first", comment_two="second", comment_third="third"))  # Результат: 6
 # print(second(10, comment_one="Alex", comment_two="Boris")) # Результат: 12
 
+#  признеченя для кількості 
+# def say(message, times=1):
+#     print(message * times)
 
+# say('Привіт') 
+# say('Світ', 5)
 
 
 
