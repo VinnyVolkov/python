@@ -614,7 +614,24 @@
 # say('Привіт') 
 # say('Світ', 5)
 
+# знижка
+# def real_cost(base: int, discount: int = 0) -> int:
+#     return base * (1 - discount)
 
+# x = int(input("Ведіть ціну "))
+# y = float(input("Ведіть дисконт "))
 
+# price_discount = real_cost(x, y)
+# print(f'Ваша знижка {price_discount}')
+
+# price_bread = 15
+# price_butter = 50
+# price_sugar = 60
+
+# current_price_bread = real_cost(price_bread)
+# current_price_butter = real_cost(price_butter, 0.05)
+# current_price_sugar = real_cost(price_sugar, 0.07)
+
+# print(current_price_bread, current_price_butter, current_price_sugar)
 
     
