@@ -566,18 +566,47 @@
 #         return f"{first_name} {last_name}"
 #     else:
 #         return f"{first_name} {last_name} {middle_name}"
-def get_fullname(first_name, last_name, middle_name=""):
-    if middle_name == "":
-        return(f"{first_name} {last_name}")
-    else:
-        return(f"{first_name} {middle_name} {last_name}")
+# def get_fullname(first_name, last_name, middle_name=""):
+#     if middle_name == "":
+#         return(f"{first_name} {last_name}")
+#     else:
+#         return(f"{first_name} {middle_name} {last_name}")
 
-first_name = "Yura"
-last_name = "Sergiyovich"
-middle_name = None
+# first_name = "Yura"
+# last_name = "Sergiyovich"
+# middle_name = None
 
-fullname = get_fullname(first_name, last_name, middle_name)
-print(fullname)
+# fullname = get_fullname(first_name, last_name, middle_name)
+# print(fullname)
+
+# # dz_string
+# def format_string(string, length):
+#     if len(string) >= length:
+#         return string
+#     else:
+#         a = (length-len(string)) 
+#         string = " " * a + string
+#         return string
+
+# formatted_result = format_string("Hello", 10)
+
+
+# print(formatted_result)
+# print(len(formatted_result))
+    
+#  Виклкик функцій
+#  def first(size, *params):
+#     return size + len(params)
+
+# def second(size, **params):
+#     return size + len(params)
+
+# # Приклади викликів функцій
+# print(first(5, "first", "second", "third"))  # Результат: 8
+# print(first(1, "Alex", "Boris"))             # Результат: 3
+# print(second(3, comment_one="first", comment_two="second", comment_third="third"))  # Результат: 6
+# print(second(10, comment_one="Alex", comment_two="Boris")) # Результат: 12
+
 
 
 
