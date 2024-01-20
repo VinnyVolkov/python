@@ -639,6 +639,8 @@
 # print(concatenate("Hello", " ", "world", "!"))
 
 
+
+
 # price_discount = real_cost(x, y)
 # print(f'Ваша знижка {price_discount}')
 
@@ -651,5 +653,19 @@
 # current_price_sugar = real_cost(price_sugar, 0.07)
 
 # print(current_price_bread, current_price_butter, current_price_sugar)
+
+# # **kwargs
+# def greet(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key}: {value}")
+
+# greet(name="Alice", age=25)
+
+# # * and **
+# def example_function(*args, **kwargs):
+#     print("Позиційні аргументи:", args)
+#     print("Ключові аргументи:", kwargs)
+
+# example_function(1, 2, 3, 4, name="Alice",  age=25)
 
     
