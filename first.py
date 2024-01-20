@@ -621,6 +621,24 @@
 # x = int(input("Ведіть ціну "))
 # y = float(input("Ведіть дисконт "))
 
+
+# *args
+# def print_all_args(*args):
+#     for arg in args:
+#         print(arg)
+
+# print_all_args(1, 'hello', True)
+
+# примінення *args
+# def concatenate(*args) -> str:
+#     result = ""
+#     for arg in args:
+#         result += arg
+#     return result
+
+# print(concatenate("Hello", " ", "world", "!"))
+
+
 # price_discount = real_cost(x, y)
 # print(f'Ваша знижка {price_discount}')
 
