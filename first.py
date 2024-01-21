@@ -668,4 +668,38 @@
 
 # example_function(1, 2, 3, 4, name="Alice",  age=25)
 
+# # Факторіал
+# def factorial(n):
+#     if n == 0: # базовий випадок
+#         return 1
+#     else:
+#         return n * factorial(n-1) # рекурсивний випадок
+
+# char = int(input('Ведіть число '))
+# final = factorial(char)
+# print(f"Факторіал {char} це буде {final}") # виведе 120
+
+
+# def factorial(n):
+#     print("Виклик функції factorial з n = ", n)
+#     if n == 1:
+#         print("Базовий випадок, n = 1, повернення 1")
+#         return 1
+#     else:
+#         result = n * factorial(n-1)
+#         print("Повернення результату для n = ", n, ": ", result)
+#         return result
+
+# print(factorial(5))
+
+
+# def factorial(n):
+#     result = 1
+#     while n > 0:
+#         result *= n
+#         n -= 1
+#     return result
+# print(factorial(7))
+
+
     
