@@ -701,5 +701,107 @@
 #     return result
 # print(factorial(7))
 
-
+# # fibonachi
+# def fibonachi(n):
+#     if n <= 1:
+#         return n
+#     else:
+#         return fibonachi(n - 1) + fibonachi(n - 2)
     
+# print(fibonachi(1))
+
+
+
+# import datetime
+# now = datetime.datetime.now()
+# print(now)
+
+# from datetime import datetime as dt
+
+
+# current_datetime = dt.now()
+
+# print(dt.now())
+# print(current_datetime.year) # year: Повертає рік дати. Наприклад, якщо now містить дату "2023-12-14 12:39:29", now.year буде 2023.
+# print(current_datetime.month) # month: Повертає місяць як число від 1 до 12. У нашому прикладі now.month буде 12.
+# print(current_datetime.day) #  day: Повертає день місяця. Для "2023-12-14 12:39:29" now.day буде 14.
+# print(current_datetime.hour) #  hour: Повертає годину дня від 0 до 23. У нашому випадку now.hour буде 12.
+# print(current_datetime.minute) # minute: Повертає хвилини часу від 0 до 59. Для даної дати now.minute буде 39.
+# print(current_datetime.second) # second: Повертає секунди часу від 0 до 59. В нашому прикладі now.second буде 29.
+# print(current_datetime.microsecond) # microsecond: Повертає мікросекунди часу. Це значення може бути від 0 до 999999. У "2023-12-14 12:39:29.992996", now.microsecond буде 992996.
+# print(current_datetime.tzinfo) # tzinfo: Повертає інформацію про часову зону об'єкта datetime. Для now, якщо часова зона не була вказана, tzinfo буде None.
+
+# from datetime import datetime
+
+# cure_time = datetime.now()
+# print(cure_time.date()) # Виведе на екран лише дату 
+# print(cure_time.time()) # Виведе на екран лише час
+
+
+# combine
+# import datetime
+
+# b_date = datetime.date(2003, 10, 6) 
+# b_time = datetime.time(8, 30, 45)
+
+# bt_data_time = datetime.datetime.combine(b_date, b_time) # за допомогою .combine обєднуємо
+
+# print(bt_data_time)
+
+
+
+# import datetime
+
+# spec_date = datetime.datetime(2023 , 10 ,1, 14, 10, 15) # можне ще year=2020, month=1, day=7, hour=14, minute=30, second=15
+
+# print(spec_date)
+
+# weekday
+# import datetime 
+# d_day = datetime.datetime(2024,10,6)
+
+# b_week = d_day.weekday()
+
+# print(b_week)
+
+# def w_day():
+#     from datetime import datetime
+
+#     f_zag = datetime.now()
+
+#     dt_= f_zag.date()
+#     tt_ = f_zag.time()
+#     f_week = f_zag.weekday()
+
+#     if f_week == 0:
+#         print(f"Cьогондні понеділок, такий день {dt_} та такий час {tt_}")
+#     elif f_week == 1:
+#         print(f"Cьогондні вівторок, такий день {dt_} та такий час {tt_}")
+#     elif f_week == 2:
+#         print(f"Cьогондні середа, такий день {dt_} та такий час {tt_}")
+#     elif f_week == 3:
+#         print(f"Cьогондні четверг, такий день {dt_} та такий час {tt_}")
+#     elif f_week == 4:
+#         print(f"Cьогондні п`ятниця, такий день {dt_} та такий час {tt_}")
+#     elif f_week == 5:
+#         print(f"Cьогондні субота, такий день {dt_} та такий час {tt_}")
+#     elif f_week == 6:
+#         print(f"Cьогондні недія, такий день {dt_} та такий час {tt_}")
+#     return
+# print(w_day())
+
+# порівння
+# from datetime import datetime
+
+# # Створення двох об'єктів datetime
+# datetime1 = datetime(2023, 3, 14, 12, 0)
+# datetime2 = datetime(2023, 3, 15, 12, 0)
+
+# # Порівняння дат
+# print(datetime1 == datetime2)  # False, тому що дати не однакові
+# print(datetime1 != datetime2)  # True, тому що дати різні
+# print(datetime1 < datetime2)   # True, тому що datetime1 передує datetime2
+# print(datetime1 > datetime2)   # False, тому що datetime1 не наступає за datetime2
+
+
+
