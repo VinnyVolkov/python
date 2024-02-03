@@ -888,13 +888,21 @@
 # print(can_buy)
 
 
-cash = 54
-card = 1
-price = 60 
+# cash = 54
+# card = 1
+# price = 60 
 
-can_cash = cash > price
-can_cards = card > price
+# can_cash = cash > price
+# can_cards = card > price
 
-can_buy = can_cards or can_cash
+# can_buy = can_cards or can_cash
 
-print(can_buy)
+# print(can_buy)
+
+#  not
+# is_adult = True
+# print(is_adult)  # True
+
+# is_not_adult = not is_adult
+# print(is_not_adult)  # False
+
