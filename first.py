@@ -872,3 +872,17 @@
 #     print("Все ок!")
 # else:
 #     print("Не все ок! ")
+
+
+# cash = 21
+# has_enof_buy = 20
+
+# age = 20
+# has_age = 18
+
+# buy_cash = cash >= has_enof_buy
+# buy_age = age >= has_age 
+
+# can_buy = buy_cash and buy_age
+
+# print(can_buy)
