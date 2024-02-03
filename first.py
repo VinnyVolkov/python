@@ -817,7 +817,7 @@
 # print(datetime1 > datetime2)   # False, тому що datetime1 не наступає за datetime2
 
 
-# # isinstance 
+# # # isinstance 
 # x = 1 
 
 # if isinstance(x, int) == True:
@@ -825,3 +825,50 @@
 # else:
 #     print(" ТИ даун??")
 
+# name = "Gaius Julius Caesar"
+# greeting = "Hi, " + name + "!"  #  Here we use concatenation
+# print(greeting)  # "Hi, Gaius Julius Caesar!"
+
+
+# phrase = ""
+# phrase = phrase + "Hello"  # "Hello"
+# phrase = phrase + ", "  # "Hello, "
+# phrase = phrase + "World!"  #"Hello, World!";
+
+# a = "Hello"
+# b = "world"
+# # write your code below this line
+# result_string = f"{a}, { b}"
+# print(result_string)
+
+
+# def say_hello(name):
+#     print(f"Hello, {name}!")
+   
+# say_hello("Yura")
+
+
+# def greeter(name):
+#     print(f"Hi, {name}")
+#     return greeter
+
+
+# greeter("Юра")
+
+# def greeter(name, part_of_the_day):
+#     greeting = f"Good {part_of_the_day}, {name}!"
+#     return greeting
+# name = "Paul"
+# part_of_the_day = "night"
+
+# result = greeter(name,part_of_the_day)
+
+# print(result)
+
+# age = 19
+# has_age = age > 18 
+
+# if has_age:
+#     print("Все ок!")
+# else:
+#     print("Не все ок! ")
