@@ -906,3 +906,97 @@
 # is_not_adult = not is_adult
 # print(is_not_adult)  # False
 
+
+# IIF else
+# age = 18
+
+# massege = "poc" if age >= 18 else "loh"
+# print(massege)
+
+
+# start_price = 75 # do 3
+# medium_price = 50 # do 10
+# long_price = 30 # do 30
+
+# def price_hotel(days: int):
+#  if  days <= 3: # 4
+#     return  days * 75
+#  else:
+#     left_day = days - 3 # 1
+
+#  if left_day <= 10: # 1 < 10
+#     return left_day * 50 + days * 75 # 1 * 50 + 3 * 75 = 
+#  else:
+#     left_day = days - 10
+
+#  if left_day <= 30:
+#     return 75 * 3 + 50 * 10 + left_day * 30
+
+# print(price_hotel(4))
+
+
+# #  з else
+# short_term_cost = 150 # days 1-3
+# medium_term_cost = 40 # days 4-7
+# long_term_cost = 30# days 8-...
+
+# def get_rental_price(number_of_days: int) -> int:
+#  if number_of_days <= 3:
+#     return number_of_days * 50
+#  else:
+#     days_left = number_of_days - 3
+#  if days_left <= 4:
+#     return 3 * 50 + days_left * 40
+#  else:
+#     days_left = number_of_days - 7
+#     return 3 * 50 + 4 * 40 + days_left * 30
+
+# print(
+# get_rental_price(4),
+
+# )
+
+
+# #  без елсе
+# short_term_cost = 50  # days 1-3
+# medium_term_cost = 40  # days 4-7
+# long_term_cost = 30  # days 8-...
+
+# def get_rental_price(number_of_days: int) -> int:
+#     if number_of_days <= 3:
+#         return number_of_days * 50
+
+#     days_left = number_of_days - 3
+#     if days_left <= 4:
+#         return 3 * 50 + days_left * 40
+
+#     days_left = number_of_days - 7
+#     return 3 * 50 + 4 * 40 + days_left * 30
+
+# print(get_rental_price(1))
+
+
+# age = 18
+# is_adult = age >=18
+
+# has_money = False
+
+# if is_adult:
+#     if has_money:
+#         print( "buy alcohol")
+#     else:
+#         print("bomg")
+# else:
+#     print("idi nahuy")
+
+
+# # найбільше значення
+# def get_largest_expression_result(a, b):
+#     result = a + b
+#     if a - b > result:
+#         result = a - b
+#     if a * b > result:
+#         result = a * b
+#     if a / b > result:
+#         result = a / b
+#     return result
