@@ -1000,3 +1000,45 @@
 #     if a / b > result:
 #         result = a / b
 #     return result
+
+# # for
+# age = 0
+
+# for i in range(0,8,2):
+#     age = age + 1
+#     print(f"My age is {i}")
+
+
+# ded = 1000
+
+# for i in range(1000,0,-7):
+#     print(f" {ded} - {7} = {i}")
+
+
+# # сумв чисел for
+# num = 15
+# amout = 0
+# for i in range(0, num + 1):
+#         amout += i
+# print(amout)
+
+
+# # також for
+# amount = 0
+
+# for i in range(1, 10, 2):
+#    print(f"{amount} + {2} = {i}")
+#    amount += i  # 1 + 3 + 5 + 7 + 9
+# print(amount)  # 25
+
+# # while
+# start_value = 22
+# value = start_value
+
+# while value >= 5:
+#   value -= 5  
+#   print(value)  # 17, 12, 7, 2
+ 
+# remainder = value  # те що залишилося і є остача від віднімання
+
+
